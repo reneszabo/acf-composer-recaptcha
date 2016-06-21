@@ -1,0 +1,32 @@
+{
+  "name": "reneszabo/acf-composer-recaptcha",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "homepage": "https://4pixels.co",
+  "description": "ACF ReCaptcha dependencies updated with composer",
+  "keywords": ["wordpress", "plugin", "roots", "4pixels", "acf"],
+  "authors": [
+     {
+      "name": "Adam Leon",
+      "email": "adam@transmitterstudios.com",
+      "homepage": "http://transmitterstudios.com"
+    },
+    {
+      "name": "Rene Ramirez",
+      "email": "rene.ramirez@4pixels.co",
+      "homepage": "http://ramirez-portforlio.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "composer/installers": "^1.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+        "psr-4": {
+            "ReCaptcha\\": "lib"
+        }
+  }
+}
