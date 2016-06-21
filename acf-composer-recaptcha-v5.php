@@ -1,7 +1,5 @@
 <?php
 
-require("vendor/autoload.php");
-
 class acf_field_composer_recaptcha extends acf_field {
 	
 	
