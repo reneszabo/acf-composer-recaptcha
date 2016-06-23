@@ -14,7 +14,7 @@
     });
 
     acf.add_filter('validation_complete', function (json, $form) {
-      console.log(json);
+      
       if (typeof (grecaptcha) === "undefined")
         return json;
       if (!_root.$el)
@@ -30,7 +30,7 @@
         }
       });
 
-      console.log(validated_error);
+      
       if (!validated_error)
         _root.$el.find("input[type=hidden]").remove();
 
