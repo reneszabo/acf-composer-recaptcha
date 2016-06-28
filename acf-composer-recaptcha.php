@@ -1,10 +1,10 @@
 <?php
 
 /*
-Plugin Name: Advanced Custom Fields: reCAPTCHA Field
-Plugin URI: https://github.com/reneszabo/acf-recaptcha/
+Plugin Name: Advanced Custom Fields: reCAPTCHA Field with Composer
+Plugin URI: https://github.com/reneszabo/acf-composer-recaptcha.git
 Description: Google reCAPTCHA Field for Advanced Custom Fields. See <a href="https://www.google.com/recaptcha/">https://www.google.com/recaptcha/</a> for an account.
-Version: 0.1.0
+Version: 0.1.1
 Author: Rene Ramirez
 Author URI: http://ramirez-portfolio.com
 License: GPLv2 or later
